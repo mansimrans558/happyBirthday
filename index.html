@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Happy Birthday</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div class="wish">
+         <p class="hb">Happy Birthday</p>
+         <p class="name">Sonika</p>
+      </div>
+      <div class="row">
+        <div class="column"><button type="button" class="btn" id="myBtn">Read this</button>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2 class="sal">Dear Sonika</h2>
+              <p class="text">
+So, it turns out that I'm not very good at this. This mtlb writing long paragraphs. So it won't be 3 pages, but ya let's 
+
+see.
+</p>
+<p class="text">
+Ok, let's begin with our friendship. Of course, it is special. You said this too, on 5th July. Being so far, yet so close 
+
+that it seems I'm a part of everything that happens with you and vice versa. Ya, it was pure chance that we happened to 
+
+meet on a strange app and then turned into best of friends with time. I ta had never imagined that I'll get a friend too, 
+
+on ablo..neither was trying to get. But ya, it happened...with efforts from both sides. So, you are my first girl bsf and 
+
+I hope you will be the last. I 'fove' you.😉 Nice term this is. And ya, our friendship is too strong to decline once one of 
+
+us goes to hostel. And you'll be in hostel by the time you're reading this, so my point would have been made. mp.. Just 
+
+wanna tell you that I think about you more than you know. Ya, I'm an overthinker..So you should leave my mind alone every 
+
+once in a while. I am really really grateful to have you as a friend and I adore our dosti alot.
+</p>
+<p class="text">
+<br><br><br>
+Your birth date too, I had to tell you. You would have told me after 25th maybe, if I hadn't checked for myself. 
+Your pranks...ughh, I kinda hate. When I'm getting pranked, I get sad and angry mostly.. with the exception of the latest prank 
+
+in which I got a raised heartbeat and kinda excitement. But like when I know I've been pranked, I get a lil sad, ig. But 
+
+ya, they're fun to remember afterwards. You should reduce pranking a lil, maybe.
+</p>
+<p class="text">
+Now let's come to Sonika, the person. Starting with looks, which I usually don't comment on. Sonika is a really beautiful 
+
+girl with a cute face and great dressing sense too. Which makes her a really attractive and pretty girl, overall. Some of 
+
+her photos are too hot to handle. Should post one or two on insta maybe. She has a really good heart. Thinks about others' 
+
+feelings. She's a bit more emotional than required, though. Cries at small things. But it's okayyy.. She asks questions 
+
+about life, love and relationships, which is good. She says that she doesn't believe in true love but I'm positive that 
+
+she wants true love and will get too. She's really funny, makes me laugh a lot. And she has a sharp tongue, insults me 
+
+alot (jokingly)<br><br><br><br><br> always has comebacks on my insults. She's diligent too.. Cooks, cleans everything...knows her 
+
+responsibilities... And ya, how did I forget her khatra memory... Damnn.. Doesn't forget a thing. So, she's smart. Good at 
+
+studies too. Overall, a perfect package of a person.
+</p>
+<p class="text">
+And ya, you got sad for 2 days when I was making this website..wrote a longg memo..Goddd...I so wanted to tell you that I 
+
+was busy with 'you' only. Ya, it takes time to make..
+</p>
+<p class="text">
+Okay, I think this is it.
+So, wish you a very very very happy birthday, bsf.
+ Janmadinako dherai dherai shubhkamana, priya 
+
+sakhi. May you enjoy this day fully, and the rest of your days too. You deserve all the happiness there is and all the 
+
+success you want.
+</p>
+<h2 class="sal">Yours </h2>
+<h2 class="sal">Mim </h2>
+<h2 class="sal">.</h2>
+            </div>
+
+          </div>
+          <audio id="audio" src="audio1.ogg"></audio>
+          <script>
+            var i = 1;
+            function play() {
+              console.log(i);
+              document.querySelector("audio").setAttribute("src", "audio"+i+".ogg");
+              var audio = document.getElementById("audio");
+              audio.play();
+              i++;
+              if(i==9)
+                i = 1;
+            }
+          </script>
+
+
+
+          <script>
+          // Get the modal
+          var modal = document.getElementById("myModal");
+
+          // Get the button that opens the modal
+          var btn = document.getElementById("myBtn");
+
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+
+          // When the user clicks the button, open the modal
+          btn.onclick = function() {
+            modal.style.display = "block";
+          }
+
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+            modal.style.display = "none";
+          }
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          }
+          </script>
+        </div>
+        <div class="column">
+         <!--  <iframe id="video1" width="450" height="280" src="https://www.youtube.com/embed/TJ2X4dFhAC0?enablejsapi" frameborder="0" allowtransparency="true" allowfullscreen></iframe>-->
+          <iframe width="450" height="280" src="https://www.youtube.com/embed/49kIRFIjVlI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+        </div>
+        <div class="column"><button type="button" class="btn" onclick="play()"><span>Click here </span><img src="https://img.icons8.com/emoji/20/000000/speaker-high-volume.png"/></button></div>
+      </div>
+        <div class="ballon-image">
+          <img class="balloons" src="balloons.png" alt="balloons">
+        </div>
+  </body>
+</html>
